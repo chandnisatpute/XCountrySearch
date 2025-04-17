@@ -1,0 +1,33 @@
+.appContainer {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.searchBar {
+  padding: 10px;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.countryGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.countryCard {
+  width: 150px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+
+.countryCard img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
